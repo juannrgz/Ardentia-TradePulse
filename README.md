@@ -21,9 +21,9 @@ TradePulse is a high-performance, premium financial dashboard designed for Arden
 
 1. Clone the repository
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 ### Development
 
