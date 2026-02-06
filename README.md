@@ -1,6 +1,6 @@
 # TradePulse - Ardentia Dashboard
 
-TradePulse is a high-performance, premium financial dashboard designed for Ardentia Systems. It features a state-of-the-art "Neon Glass" aesthetic, real-time market data simulations, and an interactive bento-grid layout.
+TradePulse is a high-performance, premium financial dashboard designed by Ardentia Systems. It features a state-of-the-art "Neon Glass" aesthetic, real-time market data simulations, and an interactive bento-grid layout.
 
 ## ✨ Features
 
@@ -10,35 +10,6 @@ TradePulse is a high-performance, premium financial dashboard designed for Arden
 - **Multi-View Navigation**: Seamless transitions between Dashboard, Markets, Portfolio, and Transactions.
 - **Advanced Charts**: Professional candlestick views and sparklines for quick trend analysis.
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v16+)
-- npm
-
-### Installation
-
-1. Clone the repository
-2. Install dependencies:
-```bash
-npm install
-```
-
-### Development
-
-Run the development server:
-```bash
-npm run dev
-```
-
-### Build
-
-Build for production:
-```bash
-npm run build
-```
-
 ## 🛠️ Built With
 
 - [Vue 3](https://vuejs.org/) (Composition API)
@@ -47,5 +18,4 @@ npm run build
 - [Lucide Icons](https://lucide.dev/)
 - [TradingView Widgets](https://www.tradingview.com/widget/)
 
----
 Made with ❤️ by [Ardentia Systems](https://ardentia-landing-page.vercel.app/)

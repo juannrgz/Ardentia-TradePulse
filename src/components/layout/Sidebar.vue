@@ -22,11 +22,17 @@ const navItems = [
 
 <template>
   <aside class="w-20 lg:w-64 h-screen border-r border-white/5 flex flex-col glass-panel backdrop-blur-3xl z-40 transition-all duration-500">
-    <div class="p-6 flex items-center gap-3">
-      <div class="w-8 h-8 flex items-center justify-center">
-        <ArdentiaLogo class="text-white w-8 h-8" />
+    <div 
+      @click="viewStore.setView('dashboard')" 
+      class="p-6 flex items-center gap-3 cursor-pointer group/logo relative overflow-hidden transition-all duration-300 active:scale-95"
+    >
+      <div class="absolute inset-0 bg-gradient-to-r from-electric-teal/0 via-electric-teal/5 to-electric-teal/0 -translate-x-full group-hover/logo:animate-[shimmer_2s_infinite]"></div>
+      <div class="w-8 h-8 flex items-center justify-center group-hover/logo:scale-110 transition-transform duration-500">
+        <ArdentiaLogo class="text-white w-8 h-8 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" />
       </div>
-      <span class="font-bold text-xl tracking-tight hidden lg:block">Trade<span class="text-electric-teal">Pulse</span></span>
+      <span class="font-bold text-xl tracking-tight hidden lg:block group-hover/logo:text-white transition-colors">
+        Trade<span class="text-electric-teal group-hover/logo:drop-shadow-[0_0_10px_rgba(45,212,191,0.8)] transition-all">Pulse</span>
+      </span>
     </div>
 
     <nav class="flex-1 mt-6 px-3 space-y-2">

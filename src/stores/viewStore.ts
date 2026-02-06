@@ -10,6 +10,11 @@ export const useViewStore = defineStore('view', () => {
 
     function setView(view: ViewType) {
         currentView.value = view;
+        // Scroll to top when view changes
+        const mainContent = document.querySelector('.custom-scrollbar');
+        if (mainContent) {
+            mainContent.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     }
 
     function notify(message: string) {
