@@ -18,4 +18,4 @@ TradePulse is a high-performance, premium financial dashboard designed by Ardent
 - [Lucide Icons](https://lucide.dev/)
 - [TradingView Widgets](https://www.tradingview.com/widget/)
 
-Made with ❤️ by [Ardentia Systems](https://ardentia-landing-page.vercel.app/)
+Made with 💕 by [Ardentia Systems](https://ardentia-landing-page.vercel.app/)
